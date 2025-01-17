@@ -10,23 +10,23 @@ I decided to rewrite the solution in C, focusing on implementing the exploit in 
 
 - **Python 3.x**: Ensure Python 3 is installed on your system. You can check by running:
 ```bash
-  python3 --version
+python3 --version
 ```
 - **C Compiler (gcc)**: Ensure you have a C compiler (like gcc) and the libcurl development library installed. You can install them on Linux with:
 ```bash
-  sudo apt-get install gcc libcurl4-openssl-dev
+sudo apt-get install gcc libcurl4-openssl-dev
 ```
 ### Installation
 ```bash
-  git clone https://github.com/yourusername/AngryStorage.git
-  cd AngryStorage
+git clone https://github.com/yourusername/AngryStorage.git
+cd AngryStorage
 ```
 ## Running the Exploit Scripts
 #### Python:
 ```bash
-  python3 ./exploit.py
+python3 ./exploit.py
 ```
 #### C:
 ```bash
-  gcc ./exploit.c -o ExploitRaceCondition -lcurl && ./ExploitRaceCondition
+gcc ./exploit.c -o ExploitRaceCondition -lcurl && ./ExploitRaceCondition
 ```
